@@ -1,0 +1,3 @@
+C:/Users/egechave/CSUN/ECE520/Assignments/axi_gpio_gc/axi_gpio_vitis/axi_gpio_app/build/CMakeFiles/axi_gpio_app.elf.dir
+C:/Users/egechave/CSUN/ECE520/Assignments/axi_gpio_gc/axi_gpio_vitis/axi_gpio_app/build/CMakeFiles/edit_cache.dir
+C:/Users/egechave/CSUN/ECE520/Assignments/axi_gpio_gc/axi_gpio_vitis/axi_gpio_app/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="axi_gpio_gc_processing_system7_0_0_synth_1" LaunchDir="C:/Users/egechave/CSUN/ECE520/Assignments/axi_gpio_gc/axi_gpio_gc.runs/axi_gpio_gc_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="axi_gpio_gc_axi_gpio_0_0_synth_1" LaunchDir="C:/Users/egechave/CSUN/ECE520/Assignments/axi_gpio_gc/axi_gpio_gc.runs/axi_gpio_gc_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="axi_gpio_gc_rst_ps7_0_50M_0_synth_1" LaunchDir="C:/Users/egechave/CSUN/ECE520/Assignments/axi_gpio_gc/axi_gpio_gc.runs/axi_gpio_gc_rst_ps7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="axi_gpio_gc_auto_pc_0_synth_1" LaunchDir="C:/Users/egechave/CSUN/ECE520/Assignments/axi_gpio_gc/axi_gpio_gc.runs/axi_gpio_gc_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/egechave/CSUN/ECE520/Assignments/axi_gpio_gc/axi_gpio_gc.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="axi_gpio_gc_processing_system7_0_0_synth_1"/>
+		<Parent Id="axi_gpio_gc_axi_gpio_0_0_synth_1"/>
+		<Parent Id="axi_gpio_gc_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="axi_gpio_gc_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/egechave/CSUN/ECE520/Assignments/axi_gpio_gc/axi_gpio_gc.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="axi_gpio_gc_processing_system7_0_0_synth_1"/>
+		<Parent Id="axi_gpio_gc_axi_gpio_0_0_synth_1"/>
+		<Parent Id="axi_gpio_gc_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="axi_gpio_gc_auto_pc_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+
