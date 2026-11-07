@@ -67,5 +67,7 @@
 !*.elf
 !*.bmm
 !*.xmp
+#README
+!*.md
 
 # End of https://www.toptal.com/developers/gitignore/api/vivado
